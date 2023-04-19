@@ -1,0 +1,375 @@
+Unity Editor version:    2022.2.6f1 (10bfa6201ced)
+Branch:                  2022.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2 (Build 22D49)
+Darwin version:          22.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.2.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49927
+Successfully changed project path to: /Users/davidrozell/Desktop/Etch-Runner/Etch-Runner
+/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704623408704] Host "[IP] 10.60.60.112 [Port] 0 [Flags] 2 [Guid] 2304847224 [EditorId] 2304847224 [Version] 1048832 [Id] OSXEditor(0,davids-mbp.fsc.int) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704623408704] Host "[IP] 10.60.60.112 [Port] 0 [Flags] 2 [Guid] 2304847224 [EditorId] 2304847224 [Version] 1048832 [Id] OSXEditor(0,davids-mbp.fsc.int) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.6f1 (10bfa6201ced)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro Vega 20 (high power)
+Metal devices available: 2
+0: AMD Radeon Pro Vega 20 (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro Vega 20 (high power)
+Initializing Metal device caps: AMD Radeon Pro Vega 20
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.2.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56230
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.2.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003389 seconds.
+- Loaded All Assemblies, in  0.435 seconds
+Native extension for Android target not found
+Multiple ADB server instances found, the following ADB server instance have been terminated due to being run from another SDK. Process paths: 
+/Applications/Unity/Hub/Editor/2021.3.8f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) UnityEditor.Android.TargetScanWorker:ScanSync ()
+ #5  (Mono JIT Code) UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+
+Unable to list connected devices. 
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/tl/fznlh3b96ssd1g2689x7gbvh0000gn/T//adb.501.log
+Server had pid: 6241
+--- adb starting (pid 6241) ---
+--- adb starting (pid 6240) ---
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] Version 32.0.0-8006631
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.2.6f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] 
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] Version 32.0.0-8006631
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.2.6f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] 
+adb E 04-18 17:08:06  6240 75629 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 04-18 17:08:06  6241 75626 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb I 04-18 17:08:06  6240 75629 usb_osx.cpp:316] reported max packet size for f0dee4a7 is 512
+adb I 04-18 17:08:06  6240 75622 auth.cpp:417] adb_auth_init...
+adb E 04-18 17:08:06  6241 75626 usb_osx.cpp:348] Could not open interface: e00002c5
+adb E 04-18 17:08:06  6241 75626 usb_osx.cpp:309] Could not find device interface
+adb I 04-18 17:08:06  6240 75622 auth.cpp:152] loaded new key from '/Users/davidrozell/.android/adbkey' with fingerprint AD42D63ACA14453A3AEE6E1A964F6BDCBC2FF19B8F853BFBBD05A12ED0CA38CA
+adb I 04-18 17:08:06  6240 75633 transport.cpp:332] f0dee4a7: read thread spawning
+adb I 04-18 17:08:06  6240 75634 transport.cpp:304] f0dee4a7: write thread spawning
+adb I 04-18 17:08:06  6240 75622 transport.cpp:1623] fetching keys for transport f0dee4a7
+adb I 04-18 17:08:06  6240 75622 auth.cpp:469] Calling send_auth_response
+adb I 04-18 17:08:06  6240 75622 auth.cpp:436] Calling send_auth_publickey
+adb F 04-18 17:08:06  6241 75623 main.cpp:167] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.2.6f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+Environment Variables:
+LAUNCH_DARKLY_CLIENT_TOKEN_STAGING = 60a7e30fafc7e60e33446282
+XPC_SERVICE_NAME = application.com.unity3d.unityhub.7604302.7604308
+WOOTRIC_CLIENT_TOKEN = NPS-aa8be4c3
+XPC_FLAGS = 0x0
+DEBUG_ENV_VAR = UnityHub
+HEAP_CLIENT_TOKEN_STAGING = 3786794399
+MallocNanoZone = 0
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+SHELL = /bin/zsh
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.7qTXtLAkQW/Listeners
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+__CFBundleIdentifier = com.unity3d.unityhub
+AMPLITUDE_API_KEY_STAGING = 83ee04fccc67e4fcc7dd527c4c6f1e21
+AMPLITUDE_API_KEY = 28f3cae0b33b8b3702120c9ed1a935aa
+HOME = /Users/davidrozell
+USER = davidrozell
+LAUNCH_DARKLY_CLIENT_TOKEN = 60a7e30fafc7e60e33446283
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+HEAP_CLIENT_TOKEN = 1717415662
+TMPDIR = /var/folders/tl/fznlh3b96ssd1g2689x7gbvh0000gn/T/
+LOGNAME = davidrozell
+SENTRY_ACCESS_TOKEN = 3df78d9e53f8456aa90fbae044ce1a6261421ab1d0014674bc2e933477289017
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
+COMMAND_MODE = unix2003
+
+
+stderr[
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/tl/fznlh3b96ssd1g2689x7gbvh0000gn/T//adb.501.log
+Server had pid: 6241
+--- adb starting (pid 6241) ---
+--- adb starting (pid 6240) ---
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] Version 32.0.0-8006631
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.2.6f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 04-18 17:08:05  6241 75623 main.cpp:63] 
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] Version 32.0.0-8006631
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.2.6f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 04-18 17:08:05  6240 75622 main.cpp:63] 
+adb E 04-18 17:08:06  6240 75629 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 04-18 17:08:06  6241 75626 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb I 04-18 17:08:06  6240 75629 usb_osx.cpp:316] reported max packet size for f0dee4a7 is 512
+adb I 04-18 17:08:06  6240 75622 auth.cpp:417] adb_auth_init...
+adb E 04-18 17:08:06  6241 75626 usb_osx.cpp:348] Could not open interface: e00002c5
+adb E 04-18 17:08:06  6241 75626 usb_osx.cpp:309] Could not find device interface
+adb I 04-18 17:08:06  6240 75622 auth.cpp:152] loaded new key from '/Users/davidrozell/.android/adbkey' with fingerprint AD42D63ACA14453A3AEE6E1A964F6BDCBC2FF19B8F853BFBBD05A12ED0CA38CA
+adb I 04-18 17:08:06  6240 75633 transport.cpp:332] f0dee4a7: read thread spawning
+adb I 04-18 17:08:06  6240 75634 transport.cpp:304] f0dee4a7: write thread spawning
+adb I 04-18 17:08:06  6240 75622 transport.cpp:1623] fetching keys for transport f0dee4a7
+adb I 04-18 17:08:06  6240 75622 auth.cpp:469] Calling send_auth_response
+adb I 04-18 17:08:06  6240 75622 auth.cpp:436] Calling send_auth_publickey
+adb F 04-18 17:08:06  6241 75623 main.cpp:167] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <fa810478bba847e4a45269fdd16199cb>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <fa810478bba847e4a45269fdd16199cb>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <fa810478bba847e4a45269fdd16199cb>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <fa810478bba847e4a45269fdd16199cb>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <fa810478bba847e4a45269fdd16199cb>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <fa810478bba847e4a45269fdd16199cb>:0 
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) UnityEditor.Android.TargetScanWorker:ScanSync ()
+ #5  (Mono JIT Code) UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+
+Android Extension - Scanning For ADB Devices 919 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (244ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+				TypeCache.Initialize (184ms)
+					TypeCache.ScanAssembly (182ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1050ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.184 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (244ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		LoadAllAssembliesAndSetupDomain (936ms)
+			LoadAssemblies (396ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (586ms)
+				TypeCache.Initialize (322ms)
+					TypeCache.ScanAssembly (317ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4187 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (62.3 KB). Loaded Objects now: 4634.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 4.626345 ms (FindLiveObjects: 0.348282 ms CreateObjectMapping: 0.417794 ms MarkObjects: 3.742643 ms  DeleteObjects: 0.116738 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.135 seconds
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (262ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		LoadAllAssembliesAndSetupDomain (872ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (623ms)
+				TypeCache.Initialize (334ms)
+					TypeCache.ScanAssembly (329ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (45.1 KB). Loaded Objects now: 4671.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 4.568802 ms (FindLiveObjects: 0.418628 ms CreateObjectMapping: 0.473996 ms MarkObjects: 3.602119 ms  DeleteObjects: 0.072985 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

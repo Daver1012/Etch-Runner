@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-52
+10-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:17-49
+11    <uses-feature
+11-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:17-63
+13        android:required="false" />
+13-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:64-88
+14    <uses-feature
+14-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-97
+15        android:name="android.hardware.sensor.accelerometer"
+15-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:17-69
+16        android:required="false" />
+16-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:70-94
+17    <uses-feature
+17-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-88
+18        android:name="android.hardware.touchscreen"
+18-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-60
+19        android:required="false" />
+19-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:61-85
+20    <uses-feature
+20-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-71
+22        android:required="false" />
+22-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:72-96
+23    <uses-feature
+23-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-80
+25        android:required="false" />
+25-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:81-105
+26
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-75
+27-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:20-72
+28
+29    <application android:extractNativeLibs="true" >
+29-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-30:17
+29-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-48
+30        <meta-data
+30-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-69
+31            android:name="unity.splash-mode"
+31-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:16-48
+32            android:value="0" />
+32-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:49-66
+33        <meta-data
+33-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-74
+34            android:name="unity.splash-enable"
+34-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-50
+35            android:value="True" />
+35-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:51-71
+36        <meta-data
+36-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-78
+37            android:name="unity.launch-fullscreen"
+37-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-54
+38            android:value="True" />
+38-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:55-75
+39        <meta-data
+39-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-84
+40            android:name="unity.allow-resizable-window"
+40-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-59
+41            android:value="False" />
+41-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:60-81
+42        <meta-data
+42-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-81
+43            android:name="notch.config"
+43-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-43
+44            android:value="portrait|landscape" />
+44-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:44-78
+45
+46        <activity
+46-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-22:16
+47            android:name="com.unity3d.player.UnityPlayerActivity"
+47-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:15-68
+48            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+48-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:185-366
+49            android:exported="true"
+49-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:438-461
+50            android:hardwareAccelerated="false"
+50-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:402-437
+51            android:launchMode="singleTask"
+51-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:153-184
+52            android:resizeableActivity="false"
+52-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:367-401
+53            android:screenOrientation="userLandscape"
+53-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:111-152
+54            android:theme="@style/UnityThemeSelector" >
+54-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:69-110
+55            <intent-filter>
+55-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:7-19:23
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:9-69
+56-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:19-66
+57
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:9-61
+58-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:17-58
+59            </intent-filter>
+60
+61            <meta-data
+61-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:7-82
+62                android:name="unityplayer.UnityActivity"
+62-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:18-58
+63                android:value="true" />
+63-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:59-79
+64            <meta-data
+64-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:7-70
+65                android:name="notch_support"
+65-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:18-46
+66                android:value="true" />
+66-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:47-67
+67        </activity>
+68
+69        <receiver
+69-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-113
+70            android:name="com.unity.androidnotifications.UnityNotificationManager"
+70-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:15-85
+71            android:exported="false" />
+71-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:86-110
+72        <receiver
+72-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:5-28:16
+73            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+73-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:15-99
+74            android:enabled="false"
+74-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:100-123
+75            android:exported="false" >
+75-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:124-148
+76            <intent-filter>
+76-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:7-27:23
+77                <action android:name="android.intent.action.BOOT_COMPLETED" />
+77-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:9-71
+77-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-68
+78            </intent-filter>
+79        </receiver>
+80
+81        <meta-data
+81-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:5-99
+82            android:name="com.unity.androidnotifications.exact_scheduling"
+82-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:16-78
+83            android:value="0" />
+83-->/Users/davidrozell/Desktop/Etch-Runner/Etch-Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:79-96
+84    </application>
+85
+86</manifest>
